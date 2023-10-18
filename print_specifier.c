@@ -26,7 +26,6 @@ int (*get_specifier(char format))(va_list)
 		{"o", get_octal},
 		{"R", get_rot13},
 		{"%", get_percent},
-		{"p", get_pointer},
 		{NULL, NULL}
 	};
 
