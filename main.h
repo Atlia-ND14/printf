@@ -38,5 +38,5 @@ int get_heX(va_list arg);
 int get_binary(va_list arg);
 int get_octal(va_list arg);
 int get_rot13(va_list arg);
-
+char *nil();
 #endif
