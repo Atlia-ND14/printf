@@ -39,4 +39,5 @@ int get_binary(va_list arg);
 int get_octal(va_list arg);
 int get_rot13(va_list arg);
 char *nil();
+int buffer_const_char(char **format, char *buffer, unsigned int *len);
 #endif
